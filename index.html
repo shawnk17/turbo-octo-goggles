@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Customer List</title>
+    <title>User Listt</title>
     <link rel="stylesheet" href="css.css">
 </head>
 
-<body>   
+<body>  
+
+        <h1>Add Customer:</h1>
+        <br>
+        <div class="form-element">
+                <span>ID  :</span>
+                <span>
+                    <input type="text" id="id">
+                </span>
+            </div>
+        
+            <div class="form-element">
+                <span>First Name:</span>
+                <span>
+                    <input type="text" id="first-name">
+                </span>
+            </div>
+            <div class="form-element">
+                <span>Last Name:</span>
+                <span>
+                    <input type="text" id="last-name">
+                </span>
+            </div>
+            
+            <div class="form-element">
+                    <span>Email:</span>
+                    <span>
+                        <input type="text" id="email">
+                    </span>
+            </div>
+
+            <div class="form-element">
+                <button id="add-button">Add User</button>
+                <button id="clear-button">Clear All Users</button>
+            </div>
+        
+            <div id="customer-list"></div>
+
+    <script src="js.js"></script>
+</body>
+</html>
